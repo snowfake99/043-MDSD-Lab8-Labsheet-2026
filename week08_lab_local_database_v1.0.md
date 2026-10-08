@@ -137,6 +137,7 @@ Gemini เสนอให้เก็บสำเนา title, price, imageUrl �
 Gemini ไม่ได้ใช้ .unique() แต่ใช้วิธีตั้ง productId เป็น Primary Key กันซ้ำแทน
 เมื่อผมเปลี่ยนมาใช้ id แบบ autoIncrement แล้ว จึงต้องเพิ่ม .unique() ที่ itemId เอง
 ไม่เช่นนั้นผู้ใช้กดหัวใจสินค้าชิ้นเดิมซ้ำได้ไม่จำกัด ทำให้มีแถวซ้ำสะสมในตาราง
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 ```
