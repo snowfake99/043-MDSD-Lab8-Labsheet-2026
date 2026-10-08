@@ -368,15 +368,21 @@ items: const [
 
 ``
 (ก) กดหัวใจที่สินค้า 3 ชิ้น
-![alt text](image-4.png)
+
+<img src="image-4.png" width="200">
 
 (ข) สลับไป Tab "รายการโปรด"
-![alt text](image-5.png)
+
+<img src="image-5.png" width="200">
+
 (ค) ปิดแอปให้สนิท (Force Stop หรือปัดออกจาก Recent Apps) แล้วเปิดใหม่ กลับไปที่ Tab รายการโปรดอีกครั้ง ถ่ายภาพหน้าจอ (ข) และ (ค) เทียบกัน ต้องแสดงรายการเดิมครบทุกชิ้น 
-![alt text](image-6.png) ![alt text](image-7.png)
-![alt text](image-9.png) ![alt text](image-8.png)
+
+<img src="image-6.png" width="200"> <img src="image-7.png" width="200">
+<img src="image-9.png" width="200"> <img src="image-8.png" width="200">
+
 (ง) กลับไปหน้า Home แล้วกดหัวใจซ้ำที่สินค้าชิ้นเดิมอีกครั้ง 
-![alt text](image-10.png) ![alt text](image-11.png)
+
+<img src="image-10.png" width="200">
 
 ```
 
@@ -427,10 +433,10 @@ class SellItemPage extends StatefulWidget {
 > ✅ **Checkpoint 5.1** รันแอปแล้วทำตามลำดับนี้: 1. สร้างร่างประกาศใหม่ผ่าน Tab "ลงประกาศขาย" ด้วยความช่วยเหลือของ AI เหมือนสัปดาห์ที่ 7 2. กดยืนยันร่าง 3. กดปุ่มไอคอนเข้าหน้า "ร่างประกาศของฉัน" แล้วเห็นร่างที่เพิ่งสร้าง 4. ปิดแอปให้สนิทแล้วเปิดใหม่ กลับเข้าหน้า "ร่างประกาศของฉัน" อีกครั้ง ถ่ายภาพหน้าจอทั้ง 4 ขั้นตอนนี้แนบส่ง เพื่อพิสูจน์ว่าร่างไม่หายไปแม้ปิดแอปแล้ว 
 
 ``
-1. ![alt text](image-16.png)
-2. ![alt text](image-15.png)
-3. ![alt text](image-17.png)
-4. ![alt text](image-18.png) ![alt text](image-19.png)
+1. <img src="image-16.png" width="200">
+2. <img src="image-15.png" width="200">
+3. <img src="image-17.png" width="200">
+4. <img src="image-18.png" width="200"> <img src="image-19.png" width="200">
 ```
 
 ---
@@ -444,8 +450,8 @@ class SellItemPage extends StatefulWidget {
 > ✅ **Checkpoint 6.1** ถ่ายภาพหน้าจอที่แสดงให้เห็นว่า Tab รายการโปรดและหน้าร่างประกาศยังคงแสดงข้อมูลได้ตามปกติแม้ไม่มีอินเทอร์เน็ตเลย (ส่วน Tab หน้าหลักที่ดึงจาก Fake Store API คาดว่าจะแสดง Error ตามปกติ เพราะยังไม่ได้ทำ Local Cache ให้หน้านั้น) 
 
 ```
-![alt text](image-12.png)
-![alt text](image-13.png)
+<img src="image-12.png" width="200">
+<img src="image-13.png" width="200">
 ```
 
 ---
